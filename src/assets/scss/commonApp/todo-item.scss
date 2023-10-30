@@ -1,0 +1,42 @@
+.todo-item {
+  background: #b68282;
+  border-bottom: 1px solid #534e4e;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-select {
+    .todo-item-title {
+      line-height: 18px;
+      width: 100%;
+    }
+    .is-completed {
+      text-decoration: line-through;
+    }
+    .edit-label {
+      color: #e5366b;
+    }
+  }
+  &-button {
+    .btn {
+      background: linear-gradient(270deg, #36dee5 0%, #b647cc 100%);
+      padding: 2px 4px;
+      border: none;
+      border-radius: 4px;
+      color: #000;
+      font-weight: 700;
+    }
+    .btn[disabled] {
+      background: #172129;
+      color: #2e455c;
+      cursor: text;
+    }
+    .btn:hover:not(.btn[disabled]) {
+      background: #36dee5;
+      cursor: pointer;
+    }
+    .btn-delete {
+      margin-right: 8px;
+    }
+  }
+}

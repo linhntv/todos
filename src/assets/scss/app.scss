@@ -1,0 +1,13 @@
+.todo {
+    display: flex;
+    background: linear-gradient(45deg,#def784,#84b6f7);
+    height: 100vh;
+    .todo-sidebar {
+        flex: 2;
+        border-right: 1px solid #c1c4c9;
+      }
+      .todo-content {
+        flex:10;
+      }
+  }
+  

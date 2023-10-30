@@ -1,0 +1,13 @@
+.common-button {
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px; 
+  letter-spacing: 0.65px;
+  font-style: normal;
+  &:hover {
+    cursor: pointer;
+  }
+}
